@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ACServer.cpp" />
+    <ClCompile Include="DataBag.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="RTSPServer.cpp" />
     <ClCompile Include="ServerSocket.cpp" />
     <ClCompile Include="ThreadPoll.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DataBag.h" />
     <ClInclude Include="RTSPServer.h" />
     <ClInclude Include="ServerSocket.h" />
     <ClInclude Include="ThreadPoll.h" />

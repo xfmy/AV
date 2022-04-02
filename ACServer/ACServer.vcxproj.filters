@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ACServer.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ServerSocket.cpp">
@@ -27,6 +27,9 @@
     <ClCompile Include="ThreadPoll.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DataBag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ServerSocket.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ThreadPoll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBag.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
